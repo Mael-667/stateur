@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css"/>
+    <link rel="icon" type="image/gif" href="icone.png">
+    <title>Statent</title>
+</head>
+
+<body>
+    <div class="main">
+    <div id="barre"><div id="truebarre"></div></div>
+    <div id="resultat">
+        <div id="video" class="resultat"> <h2>TOP VIDEO -></h2>
+
+        </div>
+        <div id="channel" class="resultat"> <h2>TOP CHAINE -></h2>
+
+        </div>
+
+        <div id="nombre">
+        Ajouter :    <input type="number" placeholder="0" onchange="return recalcul(this)" id="nb"></input> item(s)
+        </div>
+    </div>
+
+    <div class="centre">
+        <label class="fichier" onmouseenter="return emoji2moi(this)" onclick="return nerf(this)">Pick un fichier <span id="emoji">😳</span></label>
+    </div>
+
+    <div id="sueur">
+        <span>celui là est important -><button class="spoilbtn" onclick="return spoil(this)">SPOIL</button><span class="spoiler spoil">Les fleches rouges c des boutons, c pas un logo yt pr dire que c une chaine sueur</span></span>
+    </div>
+    </div>
+    <div class="assaed">
+
+    </div>
+
+    <div class="main2 bouge">
+
+        <div class="bbmain2 bouge">
+
+
+            <span class="conteneurfleche droite" onclick="return droite(this)"><span class="fleche">></span></span>
+            <span class="conteneurfleche gauche" onclick="return gauche(this)"><span class="fleche"><</span></span>
+        </div>
+
+        <div class="centre bresom" id="bougepitie">
+            <div class="fichier" onmouseenter="return emoji2moi(this)" onclick="return pickdoss(this)">Pick un dossier <span>😎</span></div>
+            <div id="sdk"></div>
+        </div>
+    </div>
+
+
+
+
+    <script src="js.js"></script>
+</body>
+
+</html>
